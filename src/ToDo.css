@@ -1,0 +1,47 @@
+
+.ToDo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapperDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+}
+
+input{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.addBtn{
+    height: 43px;
+    width: 10%;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 1px 1px lightgray;
+}
+
+.editBtn{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px;
+    margin-left: 10px;
+    box-shadow: 1px 1px lightgray;
+}
+
